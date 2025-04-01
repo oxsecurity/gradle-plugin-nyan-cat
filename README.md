@@ -19,4 +19,24 @@ To use this script in your Gradle project, import it directly from your GitHub r
 apply from: 'https://raw.githubusercontent.com/oxsecurity/gradle-plugin-nyan-cat/refs/heads/main/nyancat.gradle'
 ```
 
+### Colors
+
+in order to set the color to the nyan cat you need to add this to your `build.gradle`:
+
+```gradle
+ext {
+    asciiColor = 'red' // Set the desired color here
+}
+```
+
+possible colors are:
+- `red`
+- `green`
+- `yellow`
+- `blue`
+- `purple`
+- `cyan`
+
+---
+
 This script is a fun way to add a little personality to your Gradle tasks! 🚀
